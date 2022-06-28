@@ -6,16 +6,43 @@
     box-sizing: border-box;
 }
 body{
-    background-color: brown;
+    background-color: #eee7cd;
+}
+
+.footer {
+    background-color: #546f68;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 40px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #eee7cd;
+}
+
+.titulo{
+    font-family: poppins;
+    text-align: center;
+    margin: 40px;
+    color: #cc4d3a;
+    font-size: 30px;
+}
+.titulo h1{
+    font-weight: 500;
+    letter-spacing: 5px;
 }
 
 .header{
-    background-color: #ece7c9;
+    background-color: #546f68;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+ 
+
 }
 
 .logo{
@@ -41,15 +68,19 @@ body{
     line-height: 30px;
     margin: 50px 0;
     transition: all .5s;
+  
 }
 .nav-menu li a {
-    color: #fff;
+    color: #eee7cd;
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: bold;
+    font-family: poppins;
+    text-decoration: none;
+
 }
 .nav-menu li a.active, .nav-menu li a:hover{
-    color:red;
+    color:#cc4d3a;
     transition: .3s;
 }
 #check  {
@@ -62,6 +93,8 @@ body{
     display: block;
 }
 
+
+/* carrousel */
 
 
 
@@ -103,4 +136,6 @@ body{
     font-size: 12px;
 
 }
+
+
 }
