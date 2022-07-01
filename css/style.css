@@ -94,10 +94,18 @@ body{
 }
 
 
-/* carrousel */
+.main{
+    font-family: poppins;
+    text-align: center;
+    font-size: 16px;
 
+    width: 100%;
+}
 
-
+.main p{
+    margin: 40px 20px 40px 20px;
+    border-top: 1px solid #cc4d3a;
+}
 
 
 
@@ -137,5 +145,10 @@ body{
 
 }
 
+.main{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
 
 }
