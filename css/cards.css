@@ -2,9 +2,10 @@
     --img1: url(../public/cardsImg/congelados.webp);
     --img2: url(../public/cardsImg/panaderia.jpg);
     --img3: url(../public/cardsImg/bebidas.jpg);
+    --img4: url(../public/cardsImg/almacen.jpg);
 }
 .card{
-    width: 300px;
+    width: 400px;
     height: 200px;
     border-radius: 5px;
     background: var(--img1);
@@ -13,7 +14,7 @@
     margin: 20px;
 }
 .card1{
-    width: 300px;
+    width: 400px;
     height: 200px;
     border-radius: 5px;
     background: var(--img2);
@@ -22,10 +23,20 @@
     margin: 20px;
 }
 .card2{
-    width: 300px;
+    width: 400px;
     height: 200px;
     border-radius: 5px;
     background: var(--img3);
+    background-size: cover;
+    box-shadow: 3px 3px 5px rgba(3, 32, 51, .8);
+    margin: 20px;
+}
+
+.card3{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background: var(--img4);
     background-size: cover;
     box-shadow: 3px 3px 5px rgba(3, 32, 51, .8);
     margin: 20px;
@@ -65,28 +76,28 @@ a:hover{
 .card2:hover .content{
     opacity: 1;
 }
+.card3:hover .content{
+    opacity: 1;
+}
 .main-products{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 50px 0 50px 0;
 }
 
 
 /* responsive */
 @media screen and (max-width: 768px){
-    .main-products{
-        display: inline-block ;
-        align-content: center;
 
-    }
+
     .content{
         opacity: initial;
     }
-    .card{width: 250px ; }
+    .card{width: 300px ; }
 
-    .card1{width:250px;}
+    .card1{width:300px;}
 
-    .card2{width:250px;}
+    .card2{width:300px;}
 }
