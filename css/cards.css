@@ -95,11 +95,15 @@ a:hover{
     .content{
         opacity: initial;
     }
-    .card{width: 300px ; }
+    .card{width: 300px ; 
+        border-radius: 5px;}
 
-    .card1{width:300px;}
+    .card1{width:300px;
+        border-radius: 5px;}
 
-    .card2{width:300px;}
+    .card2{width:300px;
+        border-radius: 5px;}
 
-    .card3{width: 300px;}
+    .card3{width: 300px;
+        border-radius: 5px;}
 }
