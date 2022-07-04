@@ -1,7 +1,7 @@
 :root{
-    --img1: url(/public/cardsImg/congelados.webp);
-    --img2: url(/public/cardsImg/panaderia.jpg);
-    --img3: url(/public/cardsImg/bebidas.jpg);
+    --img1: url(../public/cardsImg/congelados.webp);
+    --img2: url(../public/cardsImg/panaderia.jpg);
+    --img3: url(../public/cardsImg/bebidas.jpg);
 }
 .card{
     width: 300px;
