@@ -58,30 +58,7 @@ body {
     margin-left: 20px;
 }
 
-.logopedidosya{
-    display: flex; 
-    background-color: #202020;
-    padding: 30px;
-    justify-items:baseline;
-   
-}
-.logopedidosya a{
-    width: 80px;
-}
-.logopedidosya span{
-    text-align: center;
-    font-family: poppins;
-    color: #fff;
-    font-weight: 500;
 
-}
-
-.pedidosya{
-    font-weight: 600;
-    background-color: #ff0000;
-    padding: 5px;
-    margin: 5px;
-}
 
 
 .bar-btn {
@@ -174,6 +151,82 @@ body {
     letter-spacing: 5px;
 }
 
+.logopedidosya{
+    display: flex; 
+    background-color: #202020;
+    padding: 30px;
+    justify-items:baseline;  
+}
+
+.logopedidosya a{
+    width: 80px;
+}
+
+.logopedidosya span{
+    text-align: center;
+    font-family: poppins;
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+.pedidosya{
+    font-weight: 600;
+    background-color: #ff0000;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* contacto*/
+
+.maincontact{
+    padding: 60px;
+    font-family: poppins   ;
+}
+
+.maincontact p {
+    font-size: 18px;
+    color: #202020;
+}
+
+
+.logoscontact{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #202020;
+    padding: 40px;
+}
+
+.logoscontact img {
+    width: 50px;
+    padding: 10px;
+}
+
+.parrafocontacto {
+    background-color: #202020;
+    text-align: center;
+    font-family: poppins;
+    padding: 30px;
+    border-bottom: 1px solid #eee7cd;
+}
+
+.parrafocontacto p {
+    color: #eee7cd;
+    font-size: 20px;
+}
+
+.spancontacto {
+    color: #eee7cd;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 12px;
+}
+.anchors{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
 
 /* RESPONSIVE */
@@ -225,12 +278,9 @@ body {
         align-content: center;
 
     }
-
-    .footer {
-        bottom: 0;
-        position: fixed;
+    .logopedidosya span {
+        margin-top: 20px;
     }
-   
 
     }
 
@@ -243,7 +293,7 @@ body {
 
 @media screen and (max-width: 768px) {
  
-
+    
     .logopedidosya{
         display: flex;
         justify-content: space-around;
@@ -251,6 +301,7 @@ body {
 
     }
 
+    
 }
 
 
