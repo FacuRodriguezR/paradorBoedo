@@ -8,13 +8,16 @@
 
 body {
     background-color: #eee7cd;
+    display: flexbox;
+    flex-direction: column;
+   
+    
 }
 
 .footer {
     background-color: #546f68;
 
-    position: fixed;
-    bottom: 0;
+  
     width: 100%;
     padding: 40px;
     font-family: poppins;
@@ -56,9 +59,28 @@ body {
 }
 
 .logopedidosya{
-    margin: 50px;
-    background-color: #546f68;
+    display: flex; 
+    background-color: #202020;
     padding: 30px;
+    justify-items:baseline;
+   
+}
+.logopedidosya a{
+    width: 80px;
+}
+.logopedidosya span{
+    text-align: center;
+    font-family: poppins;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.pedidosya{
+    font-weight: 600;
+    background-color: #ff0000;
+    padding: 5px;
+    margin: 5px;
 }
 
 
@@ -194,15 +216,41 @@ body {
         width: 100%;
         text-align: center;
         display: block;
+        
     }
 
+    .logopedidosya{
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
 
+    }
 
-}
-
-@media screen and (max-width: 768px) {
     .footer {
         bottom: 0;
-        position: unset;
+        position: fixed;
     }
+   
+
+    }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+ 
+
+    .logopedidosya{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+
+    }
+
 }
+
+
