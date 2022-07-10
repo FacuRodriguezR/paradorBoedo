@@ -158,6 +158,10 @@ body {
     justify-items:baseline;  
 }
 
+.logopedidosya a:hover{
+    width: 85px ;
+}
+
 .logopedidosya a{
     width: 80px;
 }
