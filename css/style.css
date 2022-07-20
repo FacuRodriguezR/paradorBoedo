@@ -28,18 +28,34 @@ body {
 }
 
 .titulo {
+    background-image: url('../public/images/parador2.jpeg');
     font-family: poppins;
     text-align: center;
-    margin: 40px;
-    color: #cc4d3a;
     
-    
+    color:#eee7cd;    
+    padding: 150px 100px;	
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+  
+}
+
+.titulo:before{
+    content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
 }
 
 .titulo h1 {
     font-weight: 600;
     letter-spacing: 5px;
-    font-size: 40px;
+    font-size: 60px;
+    position: relative;
 }
 
 .header {
