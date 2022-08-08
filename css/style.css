@@ -303,7 +303,8 @@ body {
 /* catalogos */
 
 .productsBody{
-    background-color: white;
+    background-color: #202020;
+
 }
 
 .catalogoTitle{
@@ -312,17 +313,20 @@ body {
     grid-area: titulo;
     width: 100%;
     
+    
 
 }
 
 .catalogoTitle h1 {
     font-weight: 800;
-    letter-spacing: 5px;
-    font-size: 50px;
+    letter-spacing: 3px;
+    font-size: 60px;
     position: relative;
     padding: 100px;
-    color: #cc4d3a;
+    color: #ffffff;
     border-bottom: 1px solid #202020;
+    text-shadow: 0 0 5px rgb(212, 212, 212)
+  
 }
 
 .catalogoProd{
@@ -334,6 +338,7 @@ grid-template-areas: 'titulo titulo'
 .listBebidas{
     grid-area: lista;
     width: 100%;
+    
   
 }
 
@@ -355,14 +360,17 @@ grid-template-areas: 'titulo titulo'
 .itemProd{
     font-family: poppins;
     padding: 15px;
-    border-bottom: 1px solid #546f68;
+    border: 2px solid #546f68;
+    border-radius: 20px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin: 30px;
     align-items: center;
-    width: auto;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 10px 10px rgba(212, 212, 212, 0.5)  ;
 
     
 }
@@ -386,15 +394,24 @@ grid-template-areas: 'titulo titulo'
 .itemProd img {
     width: 200px;
     
+    
    
 }
 
+
+
 .titleProd{
-    font-size: 30px;
+    font-size: 18px;
     text-align: center;
-    margin: 40px;
+    margin: 30px;
     padding: 20px;
-    font-weight: 600;
+    font-weight: 400;
+    background-color: #546f68;
+    border-radius: 20px;
+    color: #eee7cd;
+    box-shadow: 0px 10px 10px rgba(67, 67, 67, 0.5)  ;
+    
+    
     
 }
 
@@ -471,8 +488,10 @@ grid-template-areas: 'titulo titulo'
 
     .catalogoTitle h1{
         text-align: center;
-        font-size: 30px;
+        font-size: 50px;
         padding: 10px;
+        text-shadow: 0 0 5px rgb(255, 255, 255);
+        font-weight: 500;
     }
 
 
